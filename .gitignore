@@ -1,0 +1,22 @@
+# 编译产物（用 build.ps1 生成，不入库）
+HardwareTemp.exe
+HardwareTemp_new.exe
+HardwareTemp_old.exe
+*.pdb
+*.exe.config
+
+# 分发包目录（每次构建重新生成）
+release/
+dist/
+
+# 运行时生成的文件（程序自己写在 exe 同目录）
+app.log
+settings.txt
+*.sys
+
+# 开发过程产物
+__pycache__/
+*.pyc
+icon_preview.png
+shot.png
+shot2.png
