@@ -57,7 +57,7 @@ Copy-Item (Join-Path $root "THIRD-PARTY-NOTICES.md") $stage
 "      " + (Get-ChildItem $stage).Count + " 个文件"
 
 Write-Host "[3/4] 压缩"
-$zip = Join-Path $rel ("硬件温度监控_v" + $Version + ".zip")
+$zip = Join-Path $rel ("HardwareTemp-v" + $Version + ".zip")
 Compress-Archive -Path $stage -DestinationPath $zip -CompressionLevel Optimal
 "      " + (Split-Path $zip -Leaf) + "  " + [math]::Round((Get-Item $zip).Length / 1KB) + " KB"
 

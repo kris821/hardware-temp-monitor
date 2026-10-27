@@ -22,7 +22,7 @@
 
 ## 下载与使用
 
-1. 到 [Releases](../../releases) 下载 `硬件温度监控_v1.0.0.zip`
+1. 到 [Releases](../../releases) 下载 `HardwareTemp-v1.0.0.zip`
 2. 解压到任意位置（**不要放 `C:\Program Files`**，程序要往自己目录写日志和驱动文件）
 3. 双击 `HardwareTemp.exe`，UAC 提示点「是」
 4. 想放桌面：右键 exe → 发送到 → 桌面快捷方式
@@ -86,7 +86,7 @@ powershell -ExecutionPolicy Bypass -File .\build.ps1 -Version 1.0.1
 产物：
 
 - `HardwareTemp.exe` —— 主程序
-- `release\硬件温度监控_v1.0.0.zip` —— 分发包
+- `release\HardwareTemp-v1.0.0.zip` —— 分发包
 - `release\SHA256.txt` —— 校验值
 
 等价的单条命令：
