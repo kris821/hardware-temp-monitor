@@ -20,3 +20,7 @@ __pycache__/
 icon_preview.png
 shot.png
 shot2.png
+
+# 作者本机的发布辅助脚本（含个人账号流程，不入库）
+publish-github.ps1
+发布到GitHub.bat
